@@ -1,9 +1,9 @@
 # Introduction
 The ARP protocol can also be used to find the IP address of a device when only knowing its MAC address. 
 
-```admonish note title="RARP"
-When ARP is utilised to find an IP address, it is called RARP for "reverse ARP".
-```
+> [!NOTE] Note: RARP
+> When ARP is utilised to find an IP address, it is called RARP for "reverse ARP".
+>
 
 This is a common situation in the so-called "bootstrapping", or starting from zero. In such cases a device X may not know its own IP address, but know its MAC address, since it is embedded in the hardware. But who knows X's IP address if not X itself?
 

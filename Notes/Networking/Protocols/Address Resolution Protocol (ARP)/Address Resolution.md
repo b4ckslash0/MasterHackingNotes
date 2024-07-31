@@ -10,6 +10,5 @@ The source wants to send an IP datagram to the destination. This is what happens
 
 ![](Resources/Images/ARP%20Address%20Resolution.svg)
 
-```admonish note
-In step 3, the ARP standard actually requires that all devices which receive the broadcasted ARP request update their ARP cache with an entry for the source. However, this might be undesirable on large networks, as every device would very quickly have an ARP cache table filled with entries for all other devices on the network. In practice, this is left up to the underlying implementation.
-```
+> [!NOTE]
+> In step 3, the ARP standard actually requires that all devices which receive the broadcasted ARP request update their ARP cache with an entry for the source. However, this might be undesirable on large networks, as every device would very quickly have an ARP cache table filled with entries for all other devices on the network. In practice, this is left up to the underlying implementation.
