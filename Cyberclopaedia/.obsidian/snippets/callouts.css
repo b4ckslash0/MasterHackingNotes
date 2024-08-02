@@ -1,0 +1,4 @@
+.callout[data-callout="guide"] {
+    --callout-color: 0, 128, 128;
+    --callout-icon: lucide-book-open-text;
+}
