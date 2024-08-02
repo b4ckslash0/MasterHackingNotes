@@ -141,13 +141,12 @@
   },
   "active": "a5ceb6c5343c52be",
   "lastOpenFiles": [
-    "Cyberclopaedia/index.md",
     "index.md",
-    "System Internals/Windows/PowerShell/Execution Policies.md",
     "System Internals/index.md",
     "System Internals/Windows/File System.md",
     "System Internals/Windows/PowerShell/PowerShell.md",
     "System Internals/Windows/PowerShell/File System Operations.md",
+    "System Internals/Windows/PowerShell/Execution Policies.md",
     "System Internals/Windows/Active Directory (AD)/The Directory Information Tree (DIT).md",
     "System Internals/Windows/Active Directory (AD)/The Active Directory Hierarchy.md",
     "System Internals/Windows/Active Directory (AD)/Naming Contexts.md",
@@ -166,6 +165,7 @@
     "Reverse Engineering/Reverse Engineering with radare2/Strings.md",
     "Reverse Engineering/Reverse Engineering with radare2/index.md",
     "Reverse Engineering/Reverse Engineering with radare2/Flags.md",
-    "Reverse Engineering/Reverse Engineering with radare2/Binary Info.md"
+    "Reverse Engineering/Reverse Engineering with radare2/Binary Info.md",
+    "Reverse Engineering/Reverse Engineering with radare2/Analysis.md"
   ]
 }

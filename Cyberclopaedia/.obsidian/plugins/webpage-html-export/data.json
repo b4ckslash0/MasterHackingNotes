@@ -43,7 +43,7 @@
   "defaultFileIcon": "lucide//file",
   "defaultFolderIcon": "lucide//folder",
   "defaultMediaIcon": "lucide//file-image",
-  "exportPath": "C:\\\\Users\\mkovachev\\Documents\\cyberclopaedia\\Exports\\html",
+  "exportPath": "C:\\\\Users\\mkovachev\\Documents\\cyberclopaedia\\docs",
   "filesToExport": [
     [
       "Notes/Cryptography",
