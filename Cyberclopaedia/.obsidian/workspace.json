@@ -11,8 +11,12 @@
             "id": "a5ceb6c5343c52be",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "System Internals/Windows/PowerShell/PSDrives.md",
+                "mode": "preview",
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "System Internals/Windows/PowerShell/PSDrives.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "System Internals/Windows/PowerShell/PSDrives.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "System Internals/Windows/PowerShell/PSDrives.md"
+              }
             }
           }
         ]
@@ -141,13 +149,25 @@
   },
   "active": "a5ceb6c5343c52be",
   "lastOpenFiles": [
+    "System Internals/Windows/PowerShell/Resources/Images/PSDrives/Remove PSDrive.png",
+    "System Internals/Windows/PowerShell/PSDrives.md",
+    "System Internals/Windows/PowerShell/Resources/Images/Pasted image 20240805181157.png",
+    "System Internals/Windows/PowerShell/Resources/Images/PSDrives/Create PS Drive.png",
+    "System Internals/Windows/PowerShell/Resources/Images/PSDrives/View PSDrives.png",
+    "System Internals/Windows/PowerShell/Resources/Images/PSDrives",
+    "System Internals/Windows/PowerShell/Resources/Images/Variables",
+    "System Internals/Windows/PowerShell/Variables.md",
+    "System Internals/Windows/PowerShell/Execution Policies.md",
+    "System Internals/Windows/PowerShell/PowerShell.md",
+    "System Internals/Windows/PowerShell/Resources/Images/Variables/Cast Error.png",
+    "System Internals/Windows/PowerShell/Resources/Images/Variables/Cast Variable.png",
+    "System Internals/Windows/PowerShell/Resources/Images/Variables/Create Variable.png",
+    "System Internals/Windows/PowerShell/Resources/Images",
+    "System Internals/Windows/PowerShell/Resources",
     "Cyberclopaedia/index.md",
     "index.md",
-    "System Internals/Windows/PowerShell/Execution Policies.md",
     "System Internals/index.md",
     "System Internals/Windows/File System.md",
-    "System Internals/Windows/PowerShell/PowerShell.md",
-    "System Internals/Windows/PowerShell/File System Operations.md",
     "System Internals/Windows/Active Directory (AD)/The Directory Information Tree (DIT).md",
     "System Internals/Windows/Active Directory (AD)/The Active Directory Hierarchy.md",
     "System Internals/Windows/Active Directory (AD)/Naming Contexts.md",
@@ -164,8 +184,6 @@
     "Reverse Engineering/index.md",
     "Reverse Engineering/Basic Reverse Engineering using objdump, strace, and ltrace.md",
     "Reverse Engineering/Reverse Engineering with radare2/Strings.md",
-    "Reverse Engineering/Reverse Engineering with radare2/index.md",
-    "Reverse Engineering/Reverse Engineering with radare2/Flags.md",
-    "Reverse Engineering/Reverse Engineering with radare2/Binary Info.md"
+    "Reverse Engineering/Reverse Engineering with radare2/index.md"
   ]
 }

@@ -37,8 +37,43 @@ There are seven different types of execution policies in PowerShell.
 - All scripts are allowed to run without warnings or prompts.
 
 ## Execution Policy Scope 
-Execution policies can be set at five different levels called **Scopes**.
+Execution policies can be set at five different levels called **Scopes**. There are five of them - `MachinePolicy`, `UserPolicy`, `Process`, `CurrentUser` and `LocalMachine`, listed in decreasing precedence order.
+
+|Policy|Meaning|
+|:--:|:--:|
+|`MachinePolicy`|The execution policy is set by a Group Policy for all users of the computer.|
+|`UserPolicy`|The execution policy is set by a Group Policy for the current user on the computer.|
+|`Process`|The execution policy affects only the current PowerShell session. It is stored in the `$env:PSExecutionPolicyPreference$` environment variable.|
+|`CurrentUser`|The execution policy only affects only the current user. It is stored in the `HKEY_CURRENT_USER` registry subkey.|
+|`LocalMachine`|The execution policy affects all users on the current computer. It is stored in the `HKEY_LOCAL_MACHINE` registry subkey.|
+
+The effective execution policy the one set at the scope with the highest precedence. For example, a policy set at the `UserPolicy` level will override a policy set at the `Process` scope, no matter if the latter is more restrictive.
 
 # Managing Execution Policies
-> [!GUIDE] How-To:
-> Hill
+> [!GUIDE]- How-To: View Execution Policies
+> To view the effective execution policy:
+> 
+> ```powershell
+> Get-ExecutionPolicy
+> ```
+> 
+> To view the execution policy set for a specific scope:
+> ```powershell
+> Get-ExecutionPolicy -Scope <Scope>
+> ```
+> 
+> To view the execution policy set for each scopes:
+> 
+> ```powershell
+> Get-ExecutionPolicy -List
+> ```
+
+>[!GUIDE]- How-To: Set Execution Policies
+>To change the execution policy in a given scope:
+>
+>```powershell
+>Set-ExecutionPolicy -ExecutionPolicy <Policy> -Scope <Scope>
+>```
+>
+>>[!NOTE]
+>>Whilst this does alter the execution policy for the current scope, the policy will still be overridden by another policy set at a scope with higher precedence.

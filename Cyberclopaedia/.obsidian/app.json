@@ -2,5 +2,7 @@
   "newLinkFormat": "relative",
   "defaultViewMode": "preview",
   "livePreview": false,
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "./Resources/Images"
 }
